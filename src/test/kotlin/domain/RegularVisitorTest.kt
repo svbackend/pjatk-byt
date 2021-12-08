@@ -13,9 +13,13 @@ class RegularVisitorTest {
             name = "Ben",
             phone = "+481523698",
             address = "all. Jerozolimska  12",
-            email = "ben12566344@gmail.com"
+            email = "ben12566344@gmail.com",
+            takeOutOrder =null,
+            deliveryOrder=null
         )
 
         Assertions.assertEquals("+481523698", regularVisitor.phone)
     }
+
+
 }

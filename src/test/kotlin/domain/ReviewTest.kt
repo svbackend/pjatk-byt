@@ -9,9 +9,10 @@ import strikt.assertions.isEqualTo
 class ReviewTest {
     @Test
     fun `ReviewTest`() {
-        val emp = Review(3, "Test")
+        val review = Review(3, "Test");
 
-        assertEquals(3, emp.stars)
-        assertEquals("Test", emp.comment)
+        assertEquals(3, review.stars);
+        assertEquals("Test", review.comment);
     }
+
 }

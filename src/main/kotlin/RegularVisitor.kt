@@ -1,14 +1,19 @@
-class RegularVisitor (
+class RegularVisitor(
     val numberOfVisits: Int,
-    discount : Int,
+    discount: Int,
     name: String,
-    phone : String,
-    address : String,
-    email : String
+    phone: String,
+    address: String,
+    email: String,
+    takeOutOrder: TakeOutOrder?,
+    deliveryOrder: DeliveryOrder?
 ) : Visitor(
     name,
     phone,
     address,
-    email){
+    email,
+    takeOutOrder=null,
+    deliveryOrder=null
+){
 
     }

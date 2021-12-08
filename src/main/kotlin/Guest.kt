@@ -1,7 +1,9 @@
 import Dish
-class Guest {
-    fun makeOrder(dishes: List<Dish>) : Order{
-        val order = Order(
+class Guest (
+    val orderOnPlace: OrderOnPlace
+){
+    fun makeOrder(dishes: List<Dish>) : OrderOnPlace{
+        val order = OrderOnPlace(
             number = 256,
             totalSum = 751.5,
         );

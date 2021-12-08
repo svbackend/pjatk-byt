@@ -1,8 +1,9 @@
 import Order
+import java.time.LocalDate
 import java.util.*
 
 class TakeOutOrder(
-    val time: Date,
+    val time: LocalDate,
     number: Int,
     totalSum: Double
 ) : Order(number, totalSum){
