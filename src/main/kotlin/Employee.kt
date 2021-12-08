@@ -3,5 +3,6 @@ open class Employee(
     val surname: String,
     val address: String,
     val phone: String,
+    val restaurant: Restaurant
 ) {
 }

@@ -14,6 +14,7 @@ class Waiter(
     address: String,
     phone: String,
     val workingDays: List<WorkingDay>,
-) : Employee(name, surname, address, phone) {
+    restaurant: Restaurant,
+) : Employee(name, surname, address, phone, restaurant) {
 
 }
