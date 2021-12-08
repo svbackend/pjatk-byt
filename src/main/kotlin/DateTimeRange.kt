@@ -1,12 +1,6 @@
-import java.util.*
-
-data class Time(
-    val h: Int,
-    val m: Int,
-)
+import java.time.*
 
 open class DateTimeRange(
-    val from: Time,
-    val to: Time,
-    val date: Date
+    val from: LocalDateTime,
+    val to: LocalDateTime
 )
