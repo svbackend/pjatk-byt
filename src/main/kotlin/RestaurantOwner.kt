@@ -3,6 +3,7 @@ class RestaurantOwner(
     surname: String,
     address: String,
     phone: String,
-) : Employee(name, surname, address, phone) {
+    restaurant: Restaurant,
+) : Employee(name, surname, address, phone, restaurant) {
 
 }
