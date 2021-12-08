@@ -3,6 +3,7 @@ class RestaurantAddress(
     val numberOfTables: Int,
     var workingHours: List<String>,
     var workingDays: List<String>,
+    val openDuring: List<WorkTime>
 ) {
 
 }
