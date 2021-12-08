@@ -8,7 +8,7 @@ import strikt.assertions.isEqualTo
 
 class RestaurantAddresTest {
     @Test
-    fun `RestaurantAddresTest`() {
+    fun `Restaurant Addres Test`() {
         val emp = RestaurantAddress("Test", 2, listOf("Test", "Test2", "Test3"), listOf("Test", "Test2", "Test3"))
 
         assertEquals("Test", emp.address)

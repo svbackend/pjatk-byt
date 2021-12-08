@@ -9,7 +9,7 @@ import strikt.assertions.isEqualTo
 
 class OrderTest {
     @Test
-    fun `Build request`() {
+    fun `Order Test`() {
         val order = Order(
             number = 256,
             totalSum = 751.5,

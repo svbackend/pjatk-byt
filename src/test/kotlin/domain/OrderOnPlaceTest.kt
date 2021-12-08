@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 
 class OrderOnPlaceTest {
     @Test
-    fun `Build request`() {
+    fun `Order On Place Test`() {
         val orderOnPlace = OrderOnPlace(
             number = 256,
             totalSum = 751.5,

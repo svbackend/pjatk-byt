@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 
 class VisitorTest {
     @Test
-    fun `Build request`() {
+    fun `Visitor Test`() {
         val visitor = Visitor(
              name="John",
              phone ="+485269871",

@@ -8,7 +8,7 @@ import java.util.*
 
 class DeliveryOrderTest {
     @Test
-    fun `Build request`() {
+    fun `Delivery Order Test`() {
         val deliveryOrderTest = DeliveryOrder(
             deliveryAddress = "all. Jerozolimska 15",
             deliveryTime = Date(2018, 12, 31, 13, 15, 0),

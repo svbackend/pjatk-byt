@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 
 class RegularVisitorTest {
     @Test
-    fun `Build request`() {
+    fun `Regular Visitor Test`() {
         val regularVisitor = RegularVisitor(
             numberOfVisits = 17,
             discount = 15,
