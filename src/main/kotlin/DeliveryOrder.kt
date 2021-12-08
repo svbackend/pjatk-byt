@@ -4,7 +4,7 @@ class DeliveryOrder(
     val deliveryAddress: String,
     deliveryTime: Date,
     number: Int,
-    totalSum: Double
-) : Order(number, totalSum){
+    restaurantAddress : RestaurantAddress
+) : Order(number, restaurantAddress){
 
 }

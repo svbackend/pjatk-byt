@@ -1,6 +1,6 @@
 class OrderOnPlace (
     number: Int,
-    totalSum: Double
-) : Order(number, totalSum){
+    restaurantAddress : RestaurantAddress
+) : Order(number, restaurantAddress){
 
 }

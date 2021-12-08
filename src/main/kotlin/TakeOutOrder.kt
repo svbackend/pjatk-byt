@@ -1,11 +1,12 @@
 import Order
 import java.time.LocalDate
+import java.time.LocalDateTime
 import java.util.*
 
 class TakeOutOrder(
-    val time: LocalDate,
+    val time: LocalDateTime,
     number: Int,
-    totalSum: Double
-) : Order(number, totalSum){
+    restaurantAddress: RestaurantAddress
+) : Order(number, restaurantAddress){
 
 }

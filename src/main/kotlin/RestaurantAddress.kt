@@ -3,7 +3,8 @@ class RestaurantAddress(
     val numberOfTables: Int,
     var workingHours: List<String>,
     var workingDays: List<String>,
-    val openDuring: List<WorkTime>
+    val workTimes: MutableList<WorkTime> = mutableListOf(),
+    val orders : MutableList<Order> = mutableListOf(),
 ) {
 
 }

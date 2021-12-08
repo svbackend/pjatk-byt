@@ -9,12 +9,12 @@ import strikt.assertions.isEqualTo
 class RestaurantAddresTest {
     @Test
     fun `Restaurant Addres Test`() {
-        val emp = RestaurantAddress("Test", 2, listOf("Test", "Test2", "Test3"), listOf("Test", "Test2", "Test3"))
+        val restaurantAddress = RestaurantAddress("Test", 2, listOf("Test", "Test2", "Test3"), listOf("Test", "Test2", "Test3"))
 
-        assertEquals("Test", emp.address)
-        assertEquals(2, emp.numberOfTables)
-        assertEquals("Test, Test2, Test3", emp.workingHours.joinToString())
-        assertEquals("Test, Test2, Test3", emp.workingDays.joinToString())
+        assertEquals("Test", restaurantAddress.address)
+        assertEquals(2, restaurantAddress.numberOfTables)
+        assertEquals("Test, Test2, Test3", restaurantAddress.workingHours.joinToString())
+        assertEquals("Test, Test2, Test3", restaurantAddress.workingDays.joinToString())
 
     }
 }

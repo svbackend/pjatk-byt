@@ -1,8 +1,12 @@
 open class Order (
     val number: Int,
-    var totalSum : Double
+    val restaurantAddress: RestaurantAddress,
+    val dishes : MutableList<Dish> = mutableListOf(),
 ) {
-    fun countTotalSum(): Double{
-        return totalSum*number;
+    fun getTotalSum(): Double{
+        return dishes.sumOf { it.price }
+    }
+    fun addDish(dish : Dish) {
+        dishes.add(dish);
     }
 }

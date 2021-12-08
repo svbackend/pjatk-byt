@@ -10,4 +10,5 @@ open class Visitor (
     fun addReview(review: Review) {
         reviews.add(review);
     }
+
 }
