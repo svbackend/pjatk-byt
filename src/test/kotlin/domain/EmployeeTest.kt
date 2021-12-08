@@ -9,7 +9,7 @@ import strikt.assertions.isEqualTo
 class EmployeeTest {
     @Test
     fun `Build request`() {
-        val emp = Employee("Test", "Test")
+        val emp = Employee("Test", "Test", "test", "test")
 
         assertEquals("Test", emp.name)
     }
